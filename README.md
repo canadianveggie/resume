@@ -5,45 +5,54 @@ Vancouver, BC
 [LinkedIn](https://ca.linkedin.com/in/canadianveggie)
 | [GitHub](https://github.com/canadianveggie/)
 
+Summary
+----------
+An accomplished Full-Stack Software Engineer and Technical Leader with 20 years of experience in designing, building, and scaling complex software systems. Drives strategic technical direction, leads high-performing teams, and translates product requirements into robust, scalable solutions. Passionate about using software to solve important problems.
+
 Technologies
 ----------
-**Languages**: TypeScript, Node.js, Python, Java, R
+**Languages**: Python, TypeScript, Node.js, Java, R
 
-**Databases**: Postgres, Redshift, Cassandra, Mysql, Redis, Elasticsearch
+**Databases**: PostgreSQL, MySQL, Redis, Cassandra
 
-**DevOps**: Docker, Terraform, Logstash, Datadog, StatsD, AWS CLI
+**DevOps**: Terraform, Docker, OpenTelemetry, AWS, GCP, Datadog, PagerDuty
 
 
 Experience
 ----------
 
-**Technical Lead** at **[Thrive Health](https://www.thrive.health/)** from **December 2017 - Present**
+**Senior Software Engineer** at **[Uplight](https://uplight.com/)** from **October 2021 - Present**
+* Led technical work on analytics products, using Databricks and Spark to derive insights from large datasets.
+* Functioned as a key capacity engine, individually closing 1/3 of team story points and increasing team velocity by 50% through hands-on pairing and mentorship of junior engineers.
+* Reduced PagerDuty alerts by 90% by leading a working group to streamline incident management and alert configurations.
+* Drove critical cloud migration efforts, successfully transitioning infrastructure and services for key projects from AWS to
+GCP.
 
-* Managed up to 6 direct reports on the Platform team responsible for building the foundational infrastructure
-* Ran retrospective meetings and 5 whys sessions to help the team evolve its processes
-* Load tested our APIs and built a caching layer to ensure the Canada COVID-19 app could scale to millions of users
-* Helped set the strategic direction of the company as a member of the leadership team
-* Architected the access control lists to ensure the privacy of health data and prevent data breaches
-* Built a scalable event tracking system that kept data in Canada and gave insights to public health officials
+**Technical Lead** at **[Thrive Health](https://www.thrive.health/)** from **December 2017 - October 2021**
+
+* Led and mentored 6 direct reports, responsible for foundational infrastructure and strategic technical direction.
+* Scaled critical APIs for the Canada COVID-19 app to support millions of users by implementing load testing and building a robust caching layer.
+* Architected and implemented access control lists, ensuring robust privacy and preventing data breaches for sensitive health data.
+* Developed a scalable event tracking system that maintained data residency in Canada and provided vital insights to public health officials.
+* Improved team processes by facilitating retrospective meetings and 5 Whys sessions, fostering continuous improvement.
 
 **Technical Lead** at **[Clir Renewables](https://clir.eco/)** from **April 2017 - November 2017**
 
-* Led for 3 software developers creating a wind farm analysis tool with a Python backend and React frontend
-* Responsible for architecting the system, mentoring junior developers, and writing code
-* Setup infrastructure including a build server, user tracking, and secret management
-* Restructured the AWS deployment, defining security groups, IAM roles, and VPC subnets
-* Migrated time-series data from Elasticsearch into Redshift for reliability and speed
+* Led a team of 3 software developers in building a wind farm analysis tool (Python backend, React frontend).
+* Established core infrastructure, including a build server, user tracking, and secure secret management.
+* Optimized AWS deployment by restructuring security groups, IAM roles, and VPC subnets for enhanced security and performance.
+* Migrated time-series data from Elasticsearch to Redshift, significantly improving data reliability and query speed.
 
 **Principal Software Engineer** at **[Pulse Energy](http://pulseenergy.com/) (Acquired by EnerNOC then [Yardi](https://www.yardi.com/))** from **September 2008 - April 2017**
 
-* Created a time-series database in Java using Cassandra to store terabytes of smart meter data
-* Designed a tariff engine in node.js for modeling energy costs
-* Patented an algorithm for forecasting energy use based on historical conditions and weather
-* Wrote Chef recipes to provision our cloud infrastructure in EC2
-* Setup a monitoring stack using Logstash, Kibana, Graphite, Statsd, and a custom Graphiti-fork
-* Optimized code for other teams (in Java, Python, Ruby, and R) to reduce memory footprints and speed up execution
-* Mentored junior developers on our team, teaching them fundamentals in code design and software life-cycles
-* Handled technical recruiting for new developers, including managing the coding challenge
+* Designed and built a high-performance time-series database in Java using Cassandra, managing terabytes of smart meter data.
+* Developed a sophisticated tariff engine in Node.js for accurate energy cost modeling.
+* Patented an algorithm for forecasting energy consumption based on historical conditions and weather data.
+* Automated cloud infrastructure provisioning in EC2 using Chef recipes.
+* Established a comprehensive monitoring stack (Logstash, Kibana, Graphite, Statsd, custom Graphiti-fork) to ensure system stability and performance.
+* Optimized code across multiple languages (Java, Python, Ruby, R), resulting in reduced memory footprints and faster execution times.
+* Mentored junior developers on best practices in code design and software development lifecycles.
+* Managed technical recruiting processes, including designing and evaluating coding challenges.
 
 **Software Developer** at **[Business Objects](http://businessobjects.com/) (Acquired by [SAP](https://www.sap.com/))** from **July 2006 - September 2008**
 
@@ -62,6 +71,17 @@ Experience
 * Created quality measurement tool for MSN Newsbot that revealed several weaknesses
 * Improved Newsbot’s algorithm to return more relevant content for Canadian users
 
+Personal Projects
+---------
+
+**[Spellie](spelliegame.com)** - **February 2022**
+ * Created popular Wordle clone with over 15,000 daily users.
+ * Kept design simple, with Alpine.js for rendering suppport, GitHub hosted content, and Amplitude for user tracking.
+
+**[EV Accessibility Map](https://github.com/canadianveggie/ev-map)** - **April 2024**
+ * Analyzed electric vehicle charging station data to assess highway accessibility.
+ * Leveraged GeoPandas, Jupyter notebooks, and Kepler.gl to visualize geospatial data.
+ 
 Education
 ---------
 
